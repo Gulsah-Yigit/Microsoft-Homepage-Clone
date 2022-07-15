@@ -12,7 +12,7 @@
     
 
     <title>Microsoft</title>
-    <link rel="stylesheet" href="/assets/index.2c7ebb96.css">
+    <link rel="stylesheet" href="./assets/index.e32c94fc.css">
   </head>
   <body>
     <div class="menu-btn">
@@ -60,7 +60,7 @@
 
       <section class="home-cards">
         <div>
-          <img src="/assets/card1.0c9564e2.png" alt="" />
+          <img src="./assets/card1.0c9564e2.png" alt="" />
           <h3>New Surface Pro</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel
@@ -70,7 +70,7 @@
           <a href="#">Learn More <i class="fas fa-chevron-right"></i> </a>
         </div>
         <div>
-          <img src="/assets/card2.e62e2402.png" alt="" />
+          <img src="./assets/card2.e62e2402.png" alt="" />
           <h3>New Surface Laptop</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel
@@ -80,7 +80,7 @@
           <a href="#">Learn More <i class="fas fa-chevron-right"></i> </a>
         </div>
         <div>
-          <img src="/assets/card3.8ce7392b.png" alt="" />
+          <img src="./assets/card3.8ce7392b.png" alt="" />
           <h3>Save $150 + free controller</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel
@@ -90,7 +90,7 @@
           <a href="#">Learn More <i class="fas fa-chevron-right"></i> </a>
         </div>
         <div>
-          <img src="/assets/card4.3c3f3435.png" alt="" />
+          <img src="./assets/card4.3c3f3435.png" alt="" />
           <h3>The new Microsoft Edge</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel
@@ -119,13 +119,13 @@
       <!-- Home Cards 2 -->
       <section class="home-cards">
         <div>
-          <img src="/assets/card5.1741326d.png" alt="" />
+          <img src="./assets/card5.1741326d.png" alt="" />
           <h3>Microsoft Teams</h3>
           <p>Unleash the power of your team!</p>
           <a href="#">Learn More <i class="fas fa-chevron-right"></i> </a>
         </div>
         <div>
-          <img src="/assets/card6.9ae61af4.jpg" alt="" />
+          <img src="./assets/card6.9ae61af4.jpg" alt="" />
           <h3>Unlock the power of learning</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel
@@ -135,7 +135,7 @@
           <a href="#">Learn More <i class="fas fa-chevron-right"></i> </a>
         </div>
         <div>
-          <img src="/assets/card7.77274a24.png" alt="" />
+          <img src="./assets/card7.77274a24.png" alt="" />
           <h3>Windows 10 Enterprise</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel
@@ -145,7 +145,7 @@
           <a href="#">Learn More <i class="fas fa-chevron-right"></i> </a>
         </div>
         <div>
-          <img src="/assets/card8.93e49474.png" alt="" />
+          <img src="./assets/card8.93e49474.png" alt="" />
           <h3>Explore Kubernetes</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel
@@ -257,6 +257,12 @@
       </div>
     </footer>
 
-    <script src="index.js"></script>
+    <script>
+      document
+        .querySelector(".menu-btn")
+        .addEventListener("click", () =>
+          document.querySelector(".main-menu").classList.toggle("show")
+        );
+    </script>
   </body>
 </html>
