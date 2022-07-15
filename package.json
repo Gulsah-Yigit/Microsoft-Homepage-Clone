@@ -1,10 +1,13 @@
 {
+  "homepage": "https://Gulsah-Yigit.github.io/microsoft-homepage-clone",
   "name": "microsoft-homepage-clone",
   "version": "1.0.0",
   "description": "Microsot Homepage Clone, Responsive Design, Mobile First, CSS Grid",
   "main": "index.js",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
